@@ -1,0 +1,9 @@
+def times_ten(start_index: int, end_index: int) -> dict[int, int]:
+    times_ten_dict = {}
+    for i in range(start_index, end_index + 1):
+        times_ten_dict[i] = i * 10
+    return times_ten_dict
+
+
+d = times_ten(3, 6)
+print(d)
